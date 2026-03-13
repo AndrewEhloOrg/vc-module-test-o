@@ -1,0 +1,24 @@
+{
+  "TestO": {
+    "blades": {
+      "hello-world": {
+        "title": "Hello world blade"
+      }
+    }
+  },
+  "permissions": {
+    "test-o:access": "Open TestO menu",
+    "test-o:create": "Create TestO related data",
+    "test-o:read": "View TestO related data",
+    "test-o:update": "Update TestO related data",
+    "test-o:delete": "Delete TestO related data"
+  },
+  "settings": {
+    "TestO": {
+      "Enabled": {
+        "title": "TestO Enabled",
+        "description": "TestO Enabled setting"
+      }
+    }
+  }
+}

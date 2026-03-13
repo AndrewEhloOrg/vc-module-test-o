@@ -1,0 +1,84 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11605.240 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3DB486CE-184D-4D2A-87E6-CBAB1CDC22F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Artem.TestO.Web", "src\Artem.TestO.Web\Artem.TestO.Web.csproj", "{AAE109F8-D010-4D2B-8927-3C7D9911A638}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Artem.TestO.Data", "src\Artem.TestO.Data\Artem.TestO.Data.csproj", "{24D4A065-DD14-4C28-B40B-11356982CC70}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Artem.TestO.Core", "src\Artem.TestO.Core\Artem.TestO.Core.csproj", "{1C48CD21-0F95-4A15-8EF7-3A42C1729D8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Artem.TestO.Data.MySql", "src\Artem.TestO.Data.MySql\Artem.TestO.Data.MySql.csproj", "{3F9FC541-B4E0-432C-81F1-5C1197995B63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Artem.TestO.Data.PostgreSql", "src\Artem.TestO.Data.PostgreSql\Artem.TestO.Data.PostgreSql.csproj", "{FCC0D81E-9BA4-4E75-8256-345066493D1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Artem.TestO.Data.SqlServer", "src\Artem.TestO.Data.SqlServer\Artem.TestO.Data.SqlServer.csproj", "{B7186F3D-DE70-4223-A916-F31905C5A51A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5D15CC8D-1D21-4954-B80D-83340AF6DDE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Artem.TestO.Tests", "tests\Artem.TestO.Tests\Artem.TestO.Tests.csproj", "{E5BD7355-20A8-4B23-B2BC-849082D29EA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8AD67C43-0032-481B-B7AA-5C2B3A7C87B2}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		module.ignore = module.ignore
+		README.md = README.md
+		Artem.TestO.sln.DotSettings = Artem.TestO.sln.DotSettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAE109F8-D010-4D2B-8927-3C7D9911A638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE109F8-D010-4D2B-8927-3C7D9911A638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE109F8-D010-4D2B-8927-3C7D9911A638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE109F8-D010-4D2B-8927-3C7D9911A638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24D4A065-DD14-4C28-B40B-11356982CC70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D4A065-DD14-4C28-B40B-11356982CC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D4A065-DD14-4C28-B40B-11356982CC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D4A065-DD14-4C28-B40B-11356982CC70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C48CD21-0F95-4A15-8EF7-3A42C1729D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C48CD21-0F95-4A15-8EF7-3A42C1729D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C48CD21-0F95-4A15-8EF7-3A42C1729D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C48CD21-0F95-4A15-8EF7-3A42C1729D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F9FC541-B4E0-432C-81F1-5C1197995B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F9FC541-B4E0-432C-81F1-5C1197995B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F9FC541-B4E0-432C-81F1-5C1197995B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F9FC541-B4E0-432C-81F1-5C1197995B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCC0D81E-9BA4-4E75-8256-345066493D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC0D81E-9BA4-4E75-8256-345066493D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC0D81E-9BA4-4E75-8256-345066493D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC0D81E-9BA4-4E75-8256-345066493D1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7186F3D-DE70-4223-A916-F31905C5A51A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7186F3D-DE70-4223-A916-F31905C5A51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7186F3D-DE70-4223-A916-F31905C5A51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7186F3D-DE70-4223-A916-F31905C5A51A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5BD7355-20A8-4B23-B2BC-849082D29EA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5BD7355-20A8-4B23-B2BC-849082D29EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5BD7355-20A8-4B23-B2BC-849082D29EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5BD7355-20A8-4B23-B2BC-849082D29EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AAE109F8-D010-4D2B-8927-3C7D9911A638} = {3DB486CE-184D-4D2A-87E6-CBAB1CDC22F3}
+		{24D4A065-DD14-4C28-B40B-11356982CC70} = {3DB486CE-184D-4D2A-87E6-CBAB1CDC22F3}
+		{1C48CD21-0F95-4A15-8EF7-3A42C1729D8B} = {3DB486CE-184D-4D2A-87E6-CBAB1CDC22F3}
+		{3F9FC541-B4E0-432C-81F1-5C1197995B63} = {3DB486CE-184D-4D2A-87E6-CBAB1CDC22F3}
+		{FCC0D81E-9BA4-4E75-8256-345066493D1F} = {3DB486CE-184D-4D2A-87E6-CBAB1CDC22F3}
+		{B7186F3D-DE70-4223-A916-F31905C5A51A} = {3DB486CE-184D-4D2A-87E6-CBAB1CDC22F3}
+		{E5BD7355-20A8-4B23-B2BC-849082D29EA5} = {5D15CC8D-1D21-4954-B80D-83340AF6DDE2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {816D9666-98EB-448D-BAE3-CE641F4329BE}
+	EndGlobalSection
+EndGlobal

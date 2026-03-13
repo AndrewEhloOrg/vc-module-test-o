@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <IsPackable>false</IsPackable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <SonarQubeTestProject>false</SonarQubeTestProject>
+    <NoWarn>1591;NU1608</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="dist\**" />
+    <Content Remove="dist\**" />
+    <EmbeddedResource Remove="dist\**" />
+    <None Remove="dist\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="Localizations\**">
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Artem.TestO.Core\Artem.TestO.Core.csproj" />
+    <ProjectReference Include="..\Artem.TestO.Data\Artem.TestO.Data.csproj" />
+    <ProjectReference Include="..\Artem.TestO.Data.MySql\Artem.TestO.Data.MySql.csproj" />
+    <ProjectReference Include="..\Artem.TestO.Data.PostgreSql\Artem.TestO.Data.PostgreSql.csproj" />
+    <ProjectReference Include="..\Artem.TestO.Data.SqlServer\Artem.TestO.Data.SqlServer.csproj" />
+  </ItemGroup>
+</Project>

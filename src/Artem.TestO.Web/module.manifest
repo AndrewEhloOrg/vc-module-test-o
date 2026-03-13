@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+  <id>Artem.TestO</id>
+  <version>3.1000.0</version>
+  <version-tag></version-tag>
+
+  <platformVersion>3.1007.0</platformVersion>
+  <dependencies>
+    <!--<dependency id="VirtoCommerce.Core" version="3.1001.0" />-->
+  </dependencies>
+
+  <title>Artem TestO</title>
+  <description>Artem TestO</description>
+
+  <authors>
+    <author>Artem</author>
+  </authors>
+  <owners>
+    <owner>Artem</owner>
+  </owners>
+
+  <projectUrl>https://github.com/Artem/vc-module-test-o</projectUrl>
+  <iconUrl>Modules/$(Artem.TestO)/Content/logo.png</iconUrl>
+  <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+  <assemblyFile>Artem.TestO.Web.dll</assemblyFile>
+  <moduleType>Artem.TestO.Web.Module, Artem.TestO.Web</moduleType>
+
+  <releaseNotes>First version.</releaseNotes>
+  <copyright>Copyright © 2026 Artem. All rights reserved</copyright>
+  <tags>extension module</tags>
+  <useFullTypeNameInSwagger>false</useFullTypeNameInSwagger>
+</module>
